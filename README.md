@@ -1,7 +1,8 @@
 # HADES Oral Drug-Likeness
 
-Scores how closely a compound resembles an approved oral drug, with 0.63 the authors' recommended cutoff. HADES averages probabilities from five tree and boosting classifiers over 298 features combining Mordred descriptors, ADMET-AI predictions and QED terms, trained on 1,177 approved oral drugs against 5,307 nondrugs from ChEMBL, ZINC and GDB. Scores rise across clinical phases and fall for orally toxic, small-ring and chemically implausible structures. This model is based on a random-split provided by the authors.
+Scores how closely a compound resembles an approved oral drug, with 0.63 the authors recommended cutoff. HADES averages probabilities from five tree and boosting classifiers over 298 features combining Mordred descriptors, ADMET-AI predictions and QED terms, trained on 1,177 approved oral drugs against 5,307 nondrugs from ChEMBL, ZINC and GDB. Scores rise across clinical phases and fall for orally toxic, small-ring and chemically implausible structures. This model is based on a random-split provided by the authors.
 
+This model was incorporated on 2026-08-28.
 
 
 ## Information
@@ -34,8 +35,11 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3xhm.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3xhm.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `71`
+- **Environment Size (Mb):** `2719`
 
 
 ### References
