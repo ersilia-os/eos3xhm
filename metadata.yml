@@ -1,6 +1,6 @@
 Identifier: eos3xhm
 Slug: hades-oral-druglikeness
-Status: In progress
+Status: Ready
 Title: HADES Oral Drug-Likeness
 Description: Scores how closely a compound resembles an approved oral drug, with
   0.63 the authors recommended cutoff. HADES averages probabilities from five 
@@ -37,6 +37,16 @@ Source Code: https://github.com/Narek-Petros-yan/HADES
 License: MIT
 Contributor: TiagoJanela
 Incorporation Date: '2026-08-28'
+Last Packaging Date: '2026-08-28'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3xhm.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos3xhm
+Docker Architecture: AMD64
 Model Size: 71.0
 Environment Size: 2719.0
+Image Size: 2819.89
+Computational Performance 1: 37.4
+Computational Performance 2: 29.2
+Computational Performance 3: 38.13
+Computational Performance 4: 191.03
+Computational Performance 5: 867.9
